@@ -57,10 +57,13 @@
                  cursor: pointer;
              }
 
-            .smile input:checked + .options{
+            .textarea input:checked + .options{
                 filter: none;
             }
 
+            input[type="radio" i] {
+                display: none;
+            }
         </style>
         <title>Opinion</title>
     </head>
@@ -68,25 +71,25 @@
             <form action="foto.html" method="post">
                 <div class="textarea">
                     <label>
+                        <input type="radio" name="smiley" value=":(">
                         <img src="../GYO-systeem/images/VerySad.png" alt="smile" width="100px" height="100px" class="options">
                     </label>
                     <label>
+                        <input type="radio" name="smiley" value=":[">
                         <img src="../GYO-systeem/images/Sad.png" alt="smile" width="100px" height="100px" class="options">
                     </label>
                     <label>
+                        <input type="radio" name="smiley" value=":|">
                         <img src="../GYO-systeem/images/Moderate.png" alt="smile" width="100px" height="100px" class="options">
                     </label>
                     <label>
+                        <input type="radio" name="smiley" value=":]">
                         <img src="../GYO-systeem/images/Happy.png" alt="smile" width="100px" height="100px" class="options">
                     </label>
                     <label>
+                        <input type="radio" name="smiley" value=":)">
                         <img src="images/VeryHappy.png" alt="smile" width="100px" height="100px" class="options">
                     </label>
-                    <!--
-                    Met input om te klikken en onthouden gebruik je de volgende code:
-                    <input type="radio" name="smiley" value=":)">
-                    Heeft zeker wel nog styling nodig maar dit is een begin.
-                    -->
                     <h2>Comment:</h2>
                 </div>
                 <label>
