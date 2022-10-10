@@ -53,7 +53,7 @@
                 <div class="smile">
                     <label>
                         <input type="radio" name="smiley" value=":)" checked>
-                        <img src="../GYO-systeem/images/VerySda.png" alt="smile" width="100px" height="100px">
+                        <img src="../GYO-systeem/images/VerySad.png" alt="smile" width="100px" height="100px">
                     </label>
                     <label>
                         <input type="radio" name="smiley" value=":)" checked>
@@ -69,12 +69,12 @@
                     </label>
                     <label>
                         <input type="radio" name="smiley" value=":)" checked>
-                        <img src="../GYO-systeem/images/VeryHappy.png" alt="smile" width="100px" height="100px">
+                        <img src="images/VeryHappy.png" alt="smile" width="100px" height="100px">
                     </label>
                 </div>
                 <h2 class="textarea">Comment:</h2>
                 <label>
-                    <textarea rows=6 class="textarea"></textarea>
+                    <textarea rows=6 claithuss="textarea"></textarea>
                 </label>
                 <button class="button">submit</button>
             </form>
