@@ -17,10 +17,6 @@
                 align-content: center;
                 border: 1px solid black;
             }
-
-            s
-
-
         </style>
     </head>
     <body>
@@ -45,6 +41,9 @@
                     <input type="radio" name="smiley" value=":)" checked>
                     <img src="../GYO-systeem/images/VeryHappy.png" alt="smile" width="100px" height="100px">
                 </label>
+            </div>
+            <div class="textbox">
+                <textarea> </textarea>
             </div>
     </body>
 </HTML>
