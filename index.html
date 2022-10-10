@@ -6,27 +6,21 @@
                 background-color: lightgray;
                 width: 100%;
                 height: 100%;
+                font-family: Arial, Helvetica, sans-serif;
             }
 
             body {
                 background-color: white;
                 width: 50%;
-                height: 100%;
-                margin-left: 10%;
-                margin-right: 10%;
+                height: 80%;
+                margin: 2% 25% 10% 25%;
                 align-content: center;
                 border: 1px solid black;
-            }
-
-            .smile {
-                margin-left: 10%;
-                margin-right: 10%;
-                width: 90%;
+                padding: 20px;
             }
 
             .button {
                 border: none;
-                width: 20%;
                 padding: 8px 32px;
                 text-align: center;
                 text-decoration: none;
@@ -43,6 +37,9 @@
                  margin-right: 10%;
                  width: 80%;
                  resize: vertical;
+                 max-height: 200px;
+                 min-height: 20px;
+                 padding: 5px 5px 5px 5px;
             }
 
              .options {
@@ -63,29 +60,29 @@
     </head>
     <body>
             <form action="foto.html" method="post">
-                <div class="smile">
-                    <label>
-                        <input type="radio" name="smiley" value=":)">
-                        <img src="../GYO-systeem/images/VerySad.png" alt="smile" width="100px" height="100px" class="options">
-                    </label>
-                    <label>
-                        <input type="radio" name="smiley" value=":)">
-                        <img src="../GYO-systeem/images/Sad.png" alt="smile" width="100px" height="100px" class="options">
-                    </label>
-                    <label>
-                        <input type="radio" name="smiley" value=":)">
-                        <img src="../GYO-systeem/images/Moderate.png" alt="smile" width="100px" height="100px" class="options">
-                    </label>
-                    <label>
-                        <input type="radio" name="smiley" value=":)">
-                        <img src="../GYO-systeem/images/Happy.png" alt="smile" width="100px" height="100px" class="options">
-                    </label>
-                    <label>
-                        <input type="radio" name="smiley" value=":)">
-                        <img src="images/VeryHappy.png" alt="smile" width="100px" height="100px" class="options">
-                    </label>
+                <div class="textarea">
+                            <label>
+                                <!--<input type="radio" name="smiley" value=":)">-->
+                                <img src="../GYO-systeem/images/VerySad.png" alt="smile" width="100px" height="100px" class="options">
+                            </label>
+                            <label>
+                                <!---->
+                                <img src="../GYO-systeem/images/Sad.png" alt="smile" width="100px" height="100px" class="options">
+                            </label>
+                            <label>
+                                <!---->
+                                <img src="../GYO-systeem/images/Moderate.png" alt="smile" width="100px" height="100px" class="options">
+                            </label>
+                            <label>
+                                <!---->
+                                <img src="../GYO-systeem/images/Happy.png" alt="smile" width="100px" height="100px" class="options">
+                            </label>
+                            <label>
+                                <!---->
+                                <img src="images/VeryHappy.png" alt="smile" width="100px" height="100px" class="options">
+                            </label>
+                    <h2>Comment:</h2>
                 </div>
-                <h2 class="textarea">Comment:</h2>
                 <label>
                     <textarea rows=6 class="textarea"></textarea>
                 </label>
