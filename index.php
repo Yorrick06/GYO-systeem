@@ -35,6 +35,9 @@
                 cursor: pointer;
                 color: black;
             }
+             .textarea {
+               width: 40%;
+            }
 
         </style>
     </head>
@@ -62,7 +65,7 @@
                 </label>
             </div>
             <div class="textbox">
-                <textarea> </textarea>
+                <textarea class="textarea"> </textarea>
             <div class="button">
                 <button class="button">submit</button>
             </div>
