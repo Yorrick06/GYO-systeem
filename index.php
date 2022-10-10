@@ -19,24 +19,29 @@
             }
 
             .smile {
-                margin-left: auto;
-                margin-right: auto;
+                margin-left: 10%;
+                margin-right: 10%;
                 width: 90%;
             }
 
             .button {
                 border: none;
+                width: 20%;
                 padding: 8px 32px;
                 text-align: center;
                 text-decoration: none;
                 display: inline-block;
                 font-size: 16px;
-                margin: 4px 2px;
+                margin-left: 10%;
+                margin-right: 10%;
                 cursor: pointer;
                 color: black;
             }
+            
              .textarea {
-               width: 40%;
+                 margin-left: 10%;
+                 margin-right: 10%;
+                 width: 80%;
             }
 
         </style>
@@ -66,7 +71,5 @@
             </div>
             <div>
                 <textarea class="textarea"> </textarea>
-            <div class="button">
                 <button class="button">submit</button>
-            </div>
     </body>
