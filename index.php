@@ -1,5 +1,5 @@
-<!DOCTYPE HTML>
-<HTML>
+<!DOCTYPE html>
+<HTML lang="en">
     <head>
         <style>
             html {
@@ -46,6 +46,7 @@
             }
 
         </style>
+        <title>Opinion</title>
     </head>
     <body>
             <form action="foto.php" method="post">
@@ -72,7 +73,9 @@
                     </label>
                 </div>
                 <h2 class="textarea">Comment:</h2>
-                <textarea rows=6 class="textarea"></textarea>
+                <label>
+                    <textarea rows=6 class="textarea"></textarea>
+                </label>
                 <button class="button">submit</button>
             </form>
     </body>
