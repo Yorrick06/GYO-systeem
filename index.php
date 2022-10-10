@@ -18,13 +18,28 @@
                 border: 1px solid black;
             }
 
-            s
+            .smile {
+                margin-left: auto;
+                margin-right: auto;
+                width: 90%;
+            }
 
+            .button {
+                border: none;
+                padding: 8px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                color: black;
+            }
 
         </style>
     </head>
     <body>
-            <div class="smileys">
+            <div class="smile">
                 <label>
                     <input type="radio" name="smiley" value=":)" checked>
                     <img src="../GYO-systeem/images/VerySda.png" alt="smile" width="100px" height="100px">
@@ -45,6 +60,9 @@
                     <input type="radio" name="smiley" value=":)" checked>
                     <img src="../GYO-systeem/images/VeryHappy.png" alt="smile" width="100px" height="100px">
                 </label>
+            </div>
+            <div class="button">
+                <button class="button">submit</button>
             </div>
     </body>
 </HTML>
