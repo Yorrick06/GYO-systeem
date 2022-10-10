@@ -45,6 +45,19 @@
                  resize: vertical;
             }
 
+             .options {
+                 filter: grayscale(1);
+                 transition: 0.25s;
+             }
+
+             .options:hover {
+                 filter: none;
+             }
+
+            .smile input:checked + .options{
+                filter: none;
+            }
+
         </style>
         <title>Opinion</title>
     </head>
@@ -52,24 +65,24 @@
             <form action="foto.html" method="post">
                 <div class="smile">
                     <label>
-                        <input type="radio" name="smiley" value=":)" checked>
-                        <img src="../GYO-systeem/images/VerySad.png" alt="smile" width="100px" height="100px">
+                        <input type="radio" name="smiley" value=":)">
+                        <img src="../GYO-systeem/images/VerySad.png" alt="smile" width="100px" height="100px" class="options">
                     </label>
                     <label>
-                        <input type="radio" name="smiley" value=":)" checked>
-                        <img src="../GYO-systeem/images/Sad.png" alt="smile" width="100px" height="100px">
+                        <input type="radio" name="smiley" value=":)">
+                        <img src="../GYO-systeem/images/Sad.png" alt="smile" width="100px" height="100px" class="options">
                     </label>
                     <label>
-                        <input type="radio" name="smiley" value=":)" checked>
-                        <img src="../GYO-systeem/images/Moderate.png" alt="smile" width="100px" height="100px">
+                        <input type="radio" name="smiley" value=":)">
+                        <img src="../GYO-systeem/images/Moderate.png" alt="smile" width="100px" height="100px" class="options">
                     </label>
                     <label>
-                        <input type="radio" name="smiley" value=":)" checked>
-                        <img src="../GYO-systeem/images/Happy.png" alt="smile" width="100px" height="100px">
+                        <input type="radio" name="smiley" value=":)">
+                        <img src="../GYO-systeem/images/Happy.png" alt="smile" width="100px" height="100px" class="options">
                     </label>
                     <label>
-                        <input type="radio" name="smiley" value=":)" checked>
-                        <img src="images/VeryHappy.png" alt="smile" width="100px" height="100px">
+                        <input type="radio" name="smiley" value=":)">
+                        <img src="images/VeryHappy.png" alt="smile" width="100px" height="100px" class="options">
                     </label>
                 </div>
                 <h2 class="textarea">Comment:</h2>
