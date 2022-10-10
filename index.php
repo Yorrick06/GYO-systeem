@@ -42,6 +42,7 @@
                  margin-left: 10%;
                  margin-right: 10%;
                  width: 80%;
+                 resize: vertical;
             }
 
         </style>
@@ -71,7 +72,7 @@
                     </label>
                 </div>
                 <h2 class="textarea">Comment:</h2>
-                <textarea class="textarea"></textarea>
+                <textarea rows=6 class="textarea"></textarea>
                 <button class="button">submit</button>
             </form>
     </body>
