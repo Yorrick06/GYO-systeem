@@ -35,6 +35,9 @@
                 cursor: pointer;
                 color: black;
             }
+             .textarea {
+               width: 40%;
+            }
 
         </style>
     </head>
@@ -70,4 +73,9 @@
                     <button class="button">submit</button>
                 </div>
             </form>
+            <div>
+                <textarea class="textarea"> </textarea>
+            <div class="button">
+                <button class="button">submit</button>
+            </div>
     </body>
