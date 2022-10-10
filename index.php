@@ -64,7 +64,7 @@
                     <img src="../GYO-systeem/images/VeryHappy.png" alt="smile" width="100px" height="100px">
                 </label>
             </div>
-            <div class="textbox">
+            <div>
                 <textarea class="textarea"> </textarea>
             <div class="button">
                 <button class="button">submit</button>
